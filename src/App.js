@@ -25,36 +25,40 @@ function App() {
       <section className="flex flex-col justify-center items-center bg-gray-700 w-screen py-10 px-10">
         <div className="flex flex-col gap-10 max-w-7xl text-gray-200">
           <h1 className='text-center text-3xl text-red-500 font-grotesk font-bold'>How The Chatbot Works</h1>
-          <div className="grid grid-cols-2 lg:grid-cols-4 justify-center items-center gap-10">
-            {/* row 1 */}
-            <div className="flex flex-col gap-2.5">
-              <h2 className="text-2xl font-bold whitespace-nowrap">
-                1. Ask Your Question
-              </h2>
-              <p className="font-sm">Simply type in your question or topic of interest, and Canadian Immigration ChatBot will provide you with the information you need.</p>
+          <div className="grid lg:grid-cols-2 justify-center items-center gap-10">
+            {/* col 1 */}
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+              <div className="flex flex-col gap-2.5">
+                <h2 className="text-2xl font-bold whitespace-nowrap">
+                  1. Ask Your Question
+                </h2>
+                <p className="font-sm">Simply type in your question or topic of interest, and Canadian Immigration ChatBot will provide you with the information you need.</p>
+              </div>
+              <img src="/canadian-flag-icon-pin.jpg" alt="flag-pin" class="hidden w-full rounded-lg md:block" />
+              <img src="/flag-of-canada-with-passport.jpg" alt="flag-passport" class="hidden w-full rounded-lg md:block" />
+              <div className="flex flex-col gap-2.5">
+                <h2 className="text-2xl font-bold whitespace-nowrap">
+                  3. Latest Updates
+                </h2>
+                <p className="font-sm">Stay informed about any changes in immigration policies or procedures through Canada Immigration ChatBot’s real-time updates.</p>
+              </div>
             </div>
-            <img src="/flag-of-canada-with-passport.jpg" alt="flag-passport" class="w-full rounded-lg" />
-            <div className="flex flex-col gap-2.5">
-              <h2 className="text-2xl font-bold whitespace-nowrap">
-                2. Guided Assistance
-              </h2>
-              <p className="font-sm">Simply type in your question or topic of interest, and the ChatBot will provide you with the information you need.</p>
-            </div>
-            <img src="/beautiful-view.jpeg" alt="beautiful-view" class="w-full rounded-lg" />
-            {/* row 2 */}
-            <img src="/canadian-flag-icon-pin.jpg" alt="flag-pin" class="w-full rounded-lg" />
-            <div className="flex flex-col gap-2.5">
-              <h2 className="text-2xl font-bold whitespace-nowrap">
-                3. Latest Updates
-              </h2>
-              <p className="font-sm">Stay informed about any changes in immigration policies or procedures through Canada Immigration ChatBot’s real-time updates.</p>
-            </div>
-            <img src="/toronto-city-skyline.jpg" alt="toronto-skyline" class="w-full rounded-lg" />
-            <div className="flex flex-col gap-2.5">
-              <h2 className="text-2xl font-bold whitespace-nowrap">
-                4. Document Assistance
-              </h2>
-              <p className="font-sm">Need to fill out a form? Our chatbot can help you navigate the forms, ensuring accurate completion.</p>
+            {/* col 2 */}
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+              <div className="flex flex-col gap-2.5">
+                <h2 className="text-2xl font-bold whitespace-nowrap">
+                  2. Guided Assistance
+                </h2>
+                <p className="font-sm">Simply type in your question or topic of interest, and the ChatBot will provide you with the information you need.</p>
+              </div>
+              <img src="/canadian-flag-icon-pin.jpg" alt="flag-pin" class="hidden w-full rounded-lg md:block" />
+              <img src="/flag-of-canada-with-passport.jpg" alt="flag-passport" class="hidden w-full rounded-lg md:block" />
+              <div className="flex flex-col gap-2.5">
+                <h2 className="text-2xl font-bold whitespace-nowrap">
+                  4. Document Assistance
+                </h2>
+                <p className="font-sm">Need to fill out a form? Our chatbot can help you navigate the forms, ensuring accurate completion.</p>
+              </div>
             </div>
           </div>
         </div>
