@@ -13,7 +13,7 @@ const Header = () => {
                         <span className="font-quicksand whitespace-nowrap uppercase text-4xl">
                             <span className="text-red-500">Canadian</span> Immigration ChatBot</span>
                         <div className="flex flex-row gap-1 items-center">
-                            <img src={gptlogo.png} alt="Logo" className="w-7" />
+                            <img src={gptlogo} alt="Logo" className="w-7" />
                             <span className="whitespace-nowrap text-xl text-gray-600">Your AI-Powered Assistant</span>
                         </div>
                     </h1>
