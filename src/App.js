@@ -2,6 +2,21 @@ import MainNav from "./components/MainNav";
 import Header from "./components/Header";
 import Card from "./components/Card";
 
+import hours24 from "./images/24-hours-icon.png";
+import costsaving from "./images/cost-saving-icon.png";
+import response from "./images/response-icon.png";
+import costSaving1 from "./images/cost-saving-icon-1.png";
+
+import canadianFlagIconPin from "./images/canadian-flag-icon-pin.jpg";
+import flagOfCanadaWithPassport from "./images/flag-of-canada-with-passport.jpg";
+import toronto from "./images/toronto-city-skyline.jpg";
+import legislation from "./images/beautiful-view.jpeg";
+
+
+import phone from "./images/phone.svg";
+import idealLogoWhite from "./images/Ideal-Logo-White-1-3-1.png";
+
+
 function App() {
   return (
     <div className="flex flex-col justify-center items-center">
@@ -12,12 +27,12 @@ function App() {
           <h1 className='text-center text-3xl text-red-500 font-grotesk font-bold'>Why Choose Our AI-Powered Chatbot?</h1>
           <div className="flex flex-row justify-center gap-5 flex-wrap">
             <div className="flex flex-col md:flex-row gap-5">
-              <Card img="/24-hours-icon.png" title="Instant Answers" content="The ChatBot provides instant responses to your queries, ensuring you get the information you need when you need it." />
-              <Card img="/cost-saving-icon.png" title="Our Accuracy" content="AI-powered chatbot is designed to provide accurate and up-to-date information based on the latest Canadian immigration guidelines and regulations. " />
+              <Card img={hours24} title="Instant Answers" content="The ChatBot provides instant responses to your queries, ensuring you get the information you need when you need it." />
+              <Card img={costsaving} title="Our Accuracy" content="AI-powered chatbot is designed to provide accurate and up-to-date information based on the latest Canadian immigration guidelines and regulations. " />
             </div>
             <div className="flex flex-col md:flex-row gap-5">
-              <Card img="/response-icon.png" title="Accessibility" content="The ChatBot is available anytime, anywhere, making it convenient for you to access information on immigration and related matters. " />
-              <Card img="/cost-saving-icon-1.png" title="User-Friendly" content="We’ve created an intuitive and user-friendly interface to ensure that you can navigate complex immigration topics effortlessly. " />
+              <Card img={response} title="Accessibility" content="The ChatBot is available anytime, anywhere, making it convenient for you to access information on immigration and related matters. " />
+              <Card img={costSaving1} title="User-Friendly" content="We’ve created an intuitive and user-friendly interface to ensure that you can navigate complex immigration topics effortlessly. " />
             </div>
           </div>
         </div>
@@ -34,8 +49,8 @@ function App() {
                 </h2>
                 <p className="font-sm">Simply type in your question or topic of interest, and Canadian Immigration ChatBot will provide you with the information you need.</p>
               </div>
-              <img src="/canadian-flag-icon-pin.jpg" alt="flag-pin" class="hidden w-full rounded-lg md:block" />
-              <img src="/flag-of-canada-with-passport.jpg" alt="flag-passport" class="hidden w-full rounded-lg md:block" />
+              <img src={canadianFlagIconPin} alt="flag-pin" class="hidden w-full rounded-lg md:block" />
+              <img src={flagOfCanadaWithPassport} alt="flag-passport" class="hidden w-full rounded-lg md:block" />
               <div className="flex flex-col gap-2.5">
                 <h2 className="text-2xl font-bold whitespace-nowrap">
                   3. Latest Updates
@@ -51,8 +66,8 @@ function App() {
                 </h2>
                 <p className="font-sm">Simply type in your question or topic of interest, and the ChatBot will provide you with the information you need.</p>
               </div>
-              <img src="/canadian-flag-icon-pin.jpg" alt="flag-pin" class="hidden w-full rounded-lg md:block" />
-              <img src="/flag-of-canada-with-passport.jpg" alt="flag-passport" class="hidden w-full rounded-lg md:block" />
+              <img src={toronto} alt="flag-pin" class="hidden w-full rounded-lg md:block" />
+              <img src={legislation} alt="flag-passport" class="hidden w-full rounded-lg md:block" />
               <div className="flex flex-col gap-2.5">
                 <h2 className="text-2xl font-bold whitespace-nowrap">
                   4. Document Assistance
@@ -73,14 +88,14 @@ function App() {
             <button className="bg-red-500 text-white py-2 px-5 rounded-lg flex-grow-0">More Info</button>
             <div className="flex flex-row gap-1.5">
               <p className="text-center text-sm font-bold">Call Now: (609) - 318 - 0951</p>
-              <span><img src="/phone.svg" alt="phone" className="w-5" /></span>
+              <span><img src={phone} alt="phone" className="w-5" /></span>
             </div>
           </div>
         </div>
       </section>
       <section className="flex flex-col justify-center items-center py-10 px-10 w-screen bg-red-500">
         <div className="flex flex-row items-center max-w-xl gap-5 text-gray-200">
-          <img src="/Ideal-Logo-White-1-3-1.png" alt="Logo" className="w-auto h-[150px]" />
+          <img src={idealLogoWhite} alt="Logo" className="w-auto h-[150px]" />
           <div className="flex flex-col gap-5">
             <p className="text-center text-sm">This is a demo page to share what AI (Artificial Intelligence) can do for a business
               Initiative of Ideal Institute of Technology</p>
