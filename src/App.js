@@ -23,7 +23,7 @@ function App() {
         </div>
       </section>
       <section className="flex flex-col justify-center items-center bg-gray-700 w-screen py-10 px-10">
-        <div className="flex flex-col gap-10 max-w-7xl text-gray-200">
+        <div className="flex flex-col gap-10 max-w-7xl md:max-w-xl lg:max-w-7xl text-gray-200">
           <h1 className='text-center text-3xl text-red-500 font-grotesk font-bold'>How The Chatbot Works</h1>
           <div className="grid lg:grid-cols-2 justify-center items-center gap-10">
             {/* col 1 */}
