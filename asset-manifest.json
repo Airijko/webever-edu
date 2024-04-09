@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/webever-immigration-page/static/css/main.f577776b.css",
-    "main.js": "/webever-immigration-page/static/js/main.a387a69d.js",
+    "main.css": "/webever-immigration-page/static/css/main.34141975.css",
+    "main.js": "/webever-immigration-page/static/js/main.7a6648d4.js",
     "static/js/453.f3e491e1.chunk.js": "/webever-immigration-page/static/js/453.f3e491e1.chunk.js",
+    "static/media/immigrate.png": "/webever-immigration-page/static/media/immigrate.a1ba8cf032b15a579f5d.png",
+    "static/media/gpt-logo.png": "/webever-immigration-page/static/media/gpt-logo.7fae74de20255755ccd2.png",
+    "static/media/canadian-flag-icon-pin.jpg": "/webever-immigration-page/static/media/canadian-flag-icon-pin.b485cb62ed9e509b3d38.jpg",
+    "static/media/flag-of-canada-with-passport.jpg": "/webever-immigration-page/static/media/flag-of-canada-with-passport.ffa8b066c02e31431dc5.jpg",
+    "static/media/toronto-city-skyline.jpg": "/webever-immigration-page/static/media/toronto-city-skyline.fcbd00ffe6f26946ec8a.jpg",
+    "static/media/beautiful-view.jpeg": "/webever-immigration-page/static/media/beautiful-view.b09d76b8e14e02caa593.jpeg",
+    "static/media/Ideal-Logo-White-1-3-1.png": "/webever-immigration-page/static/media/Ideal-Logo-White-1-3-1.427c2e2513b25389d465.png",
+    "static/media/phone.svg": "/webever-immigration-page/static/media/phone.f6e8b6ad5b197396a3d667c791cf3ae8.svg",
     "index.html": "/webever-immigration-page/index.html",
-    "main.f577776b.css.map": "/webever-immigration-page/static/css/main.f577776b.css.map",
-    "main.a387a69d.js.map": "/webever-immigration-page/static/js/main.a387a69d.js.map",
+    "main.34141975.css.map": "/webever-immigration-page/static/css/main.34141975.css.map",
+    "main.7a6648d4.js.map": "/webever-immigration-page/static/js/main.7a6648d4.js.map",
     "453.f3e491e1.chunk.js.map": "/webever-immigration-page/static/js/453.f3e491e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f577776b.css",
-    "static/js/main.a387a69d.js"
+    "static/css/main.34141975.css",
+    "static/js/main.7a6648d4.js"
   ]
 }
