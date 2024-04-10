@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webever-immigration-page/static/css/main.20d81448.css",
-    "main.js": "/webever-immigration-page/static/js/main.0f7ba267.js",
+    "main.css": "/webever-immigration-page/static/css/main.28ec9945.css",
+    "main.js": "/webever-immigration-page/static/js/main.d706c20d.js",
     "static/js/453.f3e491e1.chunk.js": "/webever-immigration-page/static/js/453.f3e491e1.chunk.js",
     "static/media/immigrate.png": "/webever-immigration-page/static/media/immigrate.a1ba8cf032b15a579f5d.png",
     "static/media/gpt-logo.png": "/webever-immigration-page/static/media/gpt-logo.7fae74de20255755ccd2.png",
@@ -12,12 +12,12 @@
     "static/media/Ideal-Logo-White-1-3-1.png": "/webever-immigration-page/static/media/Ideal-Logo-White-1-3-1.427c2e2513b25389d465.png",
     "static/media/phone.svg": "/webever-immigration-page/static/media/phone.f6e8b6ad5b197396a3d667c791cf3ae8.svg",
     "index.html": "/webever-immigration-page/index.html",
-    "main.20d81448.css.map": "/webever-immigration-page/static/css/main.20d81448.css.map",
-    "main.0f7ba267.js.map": "/webever-immigration-page/static/js/main.0f7ba267.js.map",
+    "main.28ec9945.css.map": "/webever-immigration-page/static/css/main.28ec9945.css.map",
+    "main.d706c20d.js.map": "/webever-immigration-page/static/js/main.d706c20d.js.map",
     "453.f3e491e1.chunk.js.map": "/webever-immigration-page/static/js/453.f3e491e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d81448.css",
-    "static/js/main.0f7ba267.js"
+    "static/css/main.28ec9945.css",
+    "static/js/main.d706c20d.js"
   ]
 }
