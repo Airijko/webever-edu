@@ -94,7 +94,7 @@ function App() {
         </div>
       </section>
       <section className="flex flex-col justify-center items-center py-10 px-10 w-screen bg-red-500">
-        <div className="flex flex-row items-center max-w-xl gap-5 text-gray-200">
+        <div className="flex flex-col md:flex-row items-center max-w-xl gap-5 text-gray-200">
           <img src={idealLogoWhite} alt="Logo" className="w-auto h-[150px]" />
           <div className="flex flex-col gap-5">
             <p className="text-center text-sm">This is a demo page to share what AI (Artificial Intelligence) can do for a business

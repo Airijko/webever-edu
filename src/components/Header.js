@@ -8,7 +8,7 @@ const Header = () => {
         <div className="bg-gray-100 w-full -z-10 py-10">
             <header className="container justify-center items-center grid md:grid-cols-2">
                 <div className="flex flex-col gap-5">
-                    <h1 className="flex flex-col text-2xl md:text-3xl font-bold z-10 items-center text-center md:items-start md:text-start">
+                    <h1 className="flex flex-col text-xl md:text-2xl lg:text-3xl font-bold z-10 items-center text-center md:items-start md:text-start">
                         <span className="font-grotesk text-gray-600">━Introducing</span>
                         <span className="font-quicksand whitespace-nowrap uppercase lg:text-4xl">
                             <span className="text-red-500">Canadian</span> Immigration ChatBot</span>
